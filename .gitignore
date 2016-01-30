@@ -1,0 +1,17 @@
+#maven
+target/
+bin/
+out/
+*.class
+#eclipse
+.settings
+.project
+.classpath
+#intellij
+.idea/
+*.iml
+#netbeans
+nbactions.xml
+nb-configuration.xml
+.pmd
+.metadata/
