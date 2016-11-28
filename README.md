@@ -15,8 +15,10 @@ java -jar tailee.jar -file logfile \
 
 ###Notes
 Accepts unlimited number of finish and fail text
+
 tailee will close after 60 minutes ( this is hard coded but am willing to pull it out to a parameter on request )
 
 ####Why java?
 Wanted to do this in bash, and oh boy did I try but it was too complicated (and verbose)
+
 Deployment of java was the easiest solution at the time, could easily be ported to grooovy
