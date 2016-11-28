@@ -1,12 +1,14 @@
 # tailee
 Simple command line tool to tail a log file until something interesting happens
-Is very useful for automated deployment scenarios, for instance deploying an appliction from Jenkins
+
+Is very useful for automated deployment scenarios, for instance deploying an application from Jenkins
 
 ### Usage
-Start your application and ensure the output is being output to a log file
+Start your application and ensure the output is being output to a file
 ```bash
+myApplication >> logfile
 java -jar tailee.jar -file logfile \
-    -finish "application started" \
+    -finish "application is now running..." \
     -fail "file not found" \
     -fail "java.lang.NullPointerException"
 ```
